@@ -18,7 +18,7 @@ namespace Had
             Zradlo zradlo = new Zradlo(); // Instance hada
             Console.CursorVisible = false;
             Console.BackgroundColor = ConsoleColor.Green; // Nastavení zeleného pozadí
-            Console.Clear(); // Vymazání konzole
+            Console.Clear(); 
             Console.CursorLeft = 0;
             Console.CursorTop = 0;
             for (int n=0; n<Console.WindowWidth; n++)
@@ -37,7 +37,7 @@ namespace Had
 
                 had.Vykresli(); // Vykreslení hada
                 had.Lez(zradlo); // Posun hada
-                had.PrintInfo();
+                had.PrintInfo(); //kde jsme atd.
                 
 
                 Thread.Sleep(30); // Čekáme 30 milisekund
